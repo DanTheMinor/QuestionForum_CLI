@@ -1,7 +1,9 @@
 # Question-forum
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Known Bugs:
+-When answers are added, there are duplicate answers being displayed temporarily. Once the page is left and returned to, this problem is resolved
+-Wasn't sure how to set up new answer route, using a new answer folder (as shown in the ember tutorial) and still route to the correct outlet
+
 
 ## Prerequisites
 
@@ -50,4 +52,3 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-

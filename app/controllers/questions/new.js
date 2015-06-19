@@ -3,7 +3,7 @@ import Ember from 'ember';
 export default Ember.Controller.extend({
   actions: {
     addQuestion: function() {
-      var newQuestion = this.store.createRecord('tourney', {
+      var newQuestion = this.store.createRecord('question', {
         author: this.get('author'),
         description: this.get('description'),
         body: this.get('body')
@@ -11,10 +11,10 @@ export default Ember.Controller.extend({
       newQuestion.save();
       this.setProperties({
         author: " ",
-        desription: " ",
+        description: " ",
         body: " ",
       });
-
+      this.transitionToRoute('questions')
     }
   }
 });
