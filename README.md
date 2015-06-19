@@ -1,8 +1,9 @@
 # Question-forum
 
 Known Bugs:
--When answers are added, there are duplicate answers being displayed temporarily. Once the page is left and returned to, this problem is resolved
--Wasn't sure how to set up new answer route, using a new answer folder (as shown in the ember tutorial) and still route to the correct outlet
+-When answers are added, there are duplicate answers being displayed temporarily. Once the page is left and returned to, this problem is resolved.
+-Wasn't sure how to set up new answer route, using a new answer folder (as shown in the ember tutorial) and still route to the correct outlet.
+-Most of my urls are not working properly.
 
 
 ## Prerequisites
